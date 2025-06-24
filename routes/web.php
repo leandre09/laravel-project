@@ -24,4 +24,4 @@ Route::get('/about', function () {
 });
 Route::get('/spelletjes', function (){
  return view('spelletjes');
-});
+});//test
