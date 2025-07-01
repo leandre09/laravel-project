@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full bg-gray-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body><!--
+<body class="h-full"><!--
   This example requires updating your template:
 
   ```
@@ -83,7 +83,7 @@
              
       </div>
       <div class="border-t border-gray-700 pt-4 pb-3">
-        <div class="flex items-center px-5">
+        <div class="flex items-center px-5"> 
           <div class="shrink-0">
             <img class="size-10 rounded-full" src="https://pbs.twimg.com/profile_images/3536108255/57625d9f882c0bc51e80d47e513afd00_400x400.jpeg" alt="" />
           </div>
