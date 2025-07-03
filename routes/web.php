@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/spelletjes', function (){
- return view('spelletjes');
+$naam = 'leandre';
+ return view('spelletjes' , ["naam" => $naam]);
 });
+

@@ -12,5 +12,6 @@
       <li>fifa 23</li>
       <li>fifa 24</li>
     </ul>
+    {{ $naam }}
 </body>
 </html>
