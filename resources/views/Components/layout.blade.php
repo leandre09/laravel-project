@@ -22,9 +22,9 @@
           <div class="shrink-0">
             <img class="size-8" src="https://i.pinimg.com/736x/0d/41/02/0d4102657d746a79da70fc1fd21cf1ce.jpg" />
           </div>
-          <div class="hidden md:block">
+          <div class=" md:block">
             <div class="ml-10 flex items-baseline space-x-4">
-              <a href="/" class="{{ true ? 'bg-gray-900 text-white': 'text-gray-300 hover:bg-gray-700 hover:text-white'}} rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+              <a href="/" class="{{ request()->is('/') ? 'bg-gray-900 text-white': 'text-gray-300 hover:bg-gray-700 hover:text-white'}} rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
               <a href="/about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">contact</a>
               <a href="/contact" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">about</a>
             </div>
